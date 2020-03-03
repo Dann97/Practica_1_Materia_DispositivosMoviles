@@ -18,14 +18,14 @@ class MyApp extends StatelessWidget
       ),
       home: Scaffold(
       appBar: AppBar(
-        title: Text('Daugther',
+        title: Text('Aprendiendo Flutter',
           ),
       ),
       body:  Stack(
       children: <Widget>[ Container(
       decoration:  BoxDecoration(
       image: DecorationImage(
-        image: AssetImage("assets/bb.jpeg"
+        image: AssetImage("assets/fondo1.jpg"
           ), 
       fit: BoxFit.cover,
       ),
